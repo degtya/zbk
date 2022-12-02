@@ -1,0 +1,40 @@
+ html{
+    color: #D4D4D4;
+    font-family:Arial, Helvetica, sans-serif ;
+} 
+.textcols {
+    white-space: nowrap;
+   }
+   .textcols-item {
+    white-space: normal; 
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    background: #05013e;
+   }
+   .textcols .textcols-item:first-child {
+    margin-right: 4%;
+   }
+span{
+    font-style: italic;
+
+}
+ body{
+    background: linear-gradient(0deg,#00022B 0%, #181819 100%);
+} 
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+}
+.bold-text{
+    font-weight: bold;
+}

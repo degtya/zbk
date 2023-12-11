@@ -19,8 +19,11 @@ span{
     font-style: italic;
 
 }
+p{
+margin-left: 4px;
+}
  body{
-    background: linear-gradient(0deg,#00022B 0%, #181819 100%);
+    background: #181819;
 } 
 h1{
     font-size: 3rem;
@@ -38,3 +41,19 @@ p{
 .bold-text{
     font-weight: bold;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #dddddda6;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f299;
+    color: #181819;
+  }
